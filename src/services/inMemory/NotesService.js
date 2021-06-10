@@ -1,9 +1,10 @@
+/* eslint-disable no-underscore-dangle */
 /* eslint-disable no-tabs */
 /* eslint-disable indent */
 // mengelola resource notes yg disimpan pada memory(array)
 const { nanoid } = require('nanoid');
-const InvariantError = require('../../exceptions/InvariantError')
-const NotFoundError = require('../../exceptions/NotFoundError')
+const InvariantError = require('../../exceptions/InvariantError');
+const NotFoundError = require('../../exceptions/NotFoundError');
 
 class NotesService {
 	constructor() {
