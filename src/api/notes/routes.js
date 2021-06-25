@@ -39,6 +39,11 @@ const routes = (handler) => [
 		options: {
 			auth: 'notesapp_jwt',
 		},
+	},
+	{
+    method: 'GET',
+    path: '/users',
+    handler: handler.getUsersByUsernameHandler,
   },
 ];
 module.exports = routes;
